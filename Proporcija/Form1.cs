@@ -21,7 +21,7 @@ namespace Proporcija
         {
             try
             {
-                double x1 = double.Parse(tbLG.Text);
+                double x1 = double.Parse(tbLG.Text); // LG = LEVO-GORE
                 double x2 = double.Parse(tbDG.Text);
                 double y1 = double.Parse(tbLD.Text);
                 double xRez = 0;
