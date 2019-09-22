@@ -1,0 +1,20 @@
+c:\users\aleksa\source\repos\Proporcija\Proporcija\bin\Debug\Proporcija.exe.config
+c:\users\aleksa\source\repos\Proporcija\Proporcija\bin\Debug\Proporcija.exe
+c:\users\aleksa\source\repos\Proporcija\Proporcija\bin\Debug\Proporcija.pdb
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.csprojAssemblyReference.cache
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.Form1.resources
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.Properties.Resources.resources
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.csproj.GenerateResource.cache
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.csproj.CoreCompileInputs.cache
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.exe
+c:\users\aleksa\source\repos\Proporcija\Proporcija\obj\Debug\Proporcija.pdb
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\bin\Debug\Proporcija.exe.config
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\bin\Debug\Proporcija.exe
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\bin\Debug\Proporcija.pdb
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.csprojAssemblyReference.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.Form1.resources
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.Properties.Resources.resources
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.csproj.GenerateResource.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.exe
+C:\Users\Aleksa\Desktop\PROJEKTI\My programs\Proporcija\Proporcija\obj\Debug\Proporcija.pdb
