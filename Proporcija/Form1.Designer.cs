@@ -39,7 +39,10 @@
             this.lRes = new System.Windows.Forms.Label();
             this.rbDir = new System.Windows.Forms.RadioButton();
             this.rbObr = new System.Windows.Forms.RadioButton();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.zsCalcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbLG
@@ -101,7 +104,7 @@
             this.groupBox1.Controls.Add(this.tbDG);
             this.groupBox1.Controls.Add(this.tbLD);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 41);
+            this.groupBox1.Location = new System.Drawing.Point(12, 68);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(232, 127);
             this.groupBox1.TabIndex = 8;
@@ -111,7 +114,7 @@
             // bDoIt
             // 
             this.bDoIt.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.bDoIt.Location = new System.Drawing.Point(12, 174);
+            this.bDoIt.Location = new System.Drawing.Point(12, 201);
             this.bDoIt.Name = "bDoIt";
             this.bDoIt.Size = new System.Drawing.Size(232, 23);
             this.bDoIt.TabIndex = 9;
@@ -123,7 +126,7 @@
             // 
             this.lRes.AutoSize = true;
             this.lRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lRes.Location = new System.Drawing.Point(100, 219);
+            this.lRes.Location = new System.Drawing.Point(100, 246);
             this.lRes.Name = "lRes";
             this.lRes.Size = new System.Drawing.Size(51, 20);
             this.lRes.TabIndex = 8;
@@ -133,7 +136,7 @@
             // 
             this.rbDir.AutoSize = true;
             this.rbDir.Checked = true;
-            this.rbDir.Location = new System.Drawing.Point(12, 12);
+            this.rbDir.Location = new System.Drawing.Point(12, 39);
             this.rbDir.Name = "rbDir";
             this.rbDir.Size = new System.Drawing.Size(114, 17);
             this.rbDir.TabIndex = 10;
@@ -144,28 +147,50 @@
             // rbObr
             // 
             this.rbObr.AutoSize = true;
-            this.rbObr.Location = new System.Drawing.Point(132, 12);
+            this.rbObr.Location = new System.Drawing.Point(132, 39);
             this.rbObr.Name = "rbObr";
             this.rbObr.Size = new System.Drawing.Size(112, 17);
             this.rbObr.TabIndex = 11;
             this.rbObr.Text = "Obrnuta proporcija";
             this.rbObr.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.zsCalcToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(257, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // zsCalcToolStripMenuItem
+            // 
+            this.zsCalcToolStripMenuItem.Name = "zsCalcToolStripMenuItem";
+            this.zsCalcToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.zsCalcToolStripMenuItem.Text = "zs calc";
+            this.zsCalcToolStripMenuItem.Click += new System.EventHandler(this.zsCalcToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.bDoIt;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 265);
+            this.ClientSize = new System.Drawing.Size(257, 287);
             this.Controls.Add(this.rbObr);
             this.Controls.Add(this.rbDir);
             this.Controls.Add(this.lRes);
             this.Controls.Add(this.bDoIt);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Proporcija";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,6 +209,8 @@
         private System.Windows.Forms.Label lRes;
         private System.Windows.Forms.RadioButton rbDir;
         private System.Windows.Forms.RadioButton rbObr;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem zsCalcToolStripMenuItem;
     }
 }
 

@@ -37,5 +37,16 @@ namespace Proporcija
                 MessageBox.Show("Params incorrect!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
             }
         }
+
+        private void zsCalcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form zs = new FormZS();
+            zs.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
