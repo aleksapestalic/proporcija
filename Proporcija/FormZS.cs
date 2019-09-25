@@ -50,6 +50,8 @@ namespace Proporcija
                 double zsBilo = double.Parse(tbZsBilo.Text);
                 double zsSada = double.Parse(tbZsSada.Text);
 
+                tbTimeElapsed.Text = "Time between measurements: " + diff.Hours + "h " + diff.Minutes + "min " + diff.Seconds + "s."; //displays time between measurements.
+
                 /*
                  * bilo-sada .... timeEl
                  * 1............. X
@@ -109,6 +111,26 @@ namespace Proporcija
         private void bNow2_Click(object sender, EventArgs e)
         {
             dateTimePicker2.Value = DateTime.Now;
+        }
+
+        private void bPlusMinuteUpper_Click(object sender, EventArgs e)
+        {
+            dateTimePicker1.Value = dateTimePicker1.Value.AddMinutes(1);
+        }
+
+        private void bMinusMinuteUpper_Click(object sender, EventArgs e)
+        {
+            dateTimePicker1.Value = dateTimePicker1.Value.AddMinutes(-1);
+        }
+
+        private void bPlusMinuteLower_Click(object sender, EventArgs e)
+        {
+            dateTimePicker2.Value = dateTimePicker2.Value.AddMinutes(1);
+        }
+
+        private void bMinusMinuteLower_Click(object sender, EventArgs e)
+        {
+            dateTimePicker2.Value = dateTimePicker2.Value.AddMinutes(-1);
         }
     }
 }
