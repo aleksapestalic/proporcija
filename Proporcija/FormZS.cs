@@ -68,18 +68,17 @@ namespace Proporcija
 
                 tbZaJedanZS.Text = (minutaZaJednog * 60).ToString("0.00") + "s";
 
-                if (cbTotalMeasure.Checked)
-                {
-                    //double sumOfZs = double.Parse(tbSumOfZs.Text);
-                    double sumOfZs = double.Parse(tbZsSada.Text);
-                    double timeRemaining = minutaZaJednog * sumOfZs;
-                    tbTimeRemaining.Text = timeRemaining.ToString("0.00") + "min";
-                    tbRemainingHours.Text = satiZaJednog.ToString("0.00") + "h";
-                    DateTime ETA = DateTime.Now;
-                    ETA = ETA.AddMinutes(timeRemaining);
-                    tbETA.Text = ETA.ToString("dd. MM. | HH:mm:ss");
-                }
-                
+                //double sumOfZs = double.Parse(tbSumOfZs.Text);
+                double sumOfZs = double.Parse(tbZsSada.Text);
+                double timeRemaining = minutaZaJednog * sumOfZs;
+                tbTimeRemaining.Text = timeRemaining.ToString("0.00") + "min";
+                double satiDoKraja = timeRemaining / 60;
+                tbRemainingHours.Text = satiDoKraja.ToString("0.00") + "h";
+                DateTime ETA = DateTime.Now;
+                ETA = ETA.AddMinutes(timeRemaining);
+                tbETA.Text = ETA.ToString("dd. MM. | HH:mm:ss");
+
+
             }
             catch (Exception)
             {

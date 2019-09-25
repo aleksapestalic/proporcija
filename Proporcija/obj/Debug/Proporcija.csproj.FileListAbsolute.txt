@@ -29,3 +29,14 @@ C:\Users\Aleksa\Desktop\PROJEKTI\MY PROJECTS SVN\proporcija\trunk\Proporcija\obj
 C:\Users\Aleksa\Desktop\PROJEKTI\MY PROJECTS SVN\proporcija\trunk\Proporcija\obj\Debug\Proporcija.csproj.CoreCompileInputs.cache
 C:\Users\Aleksa\Desktop\PROJEKTI\MY PROJECTS SVN\proporcija\trunk\Proporcija\obj\Debug\Proporcija.exe
 C:\Users\Aleksa\Desktop\PROJEKTI\MY PROJECTS SVN\proporcija\trunk\Proporcija\obj\Debug\Proporcija.pdb
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\bin\Debug\Proporcija.exe.config
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\bin\Debug\Proporcija.exe
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\bin\Debug\Proporcija.pdb
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.csprojAssemblyReference.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.Form1.resources
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.FormZS.resources
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.Properties.Resources.resources
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.csproj.GenerateResource.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.exe
+C:\Users\Aleksa\Desktop\PROJEKTI\My progs SVN\Proporcija\trunk\Proporcija\obj\Debug\Proporcija.pdb
