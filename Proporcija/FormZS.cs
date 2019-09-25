@@ -19,7 +19,7 @@ namespace Proporcija
 
         private void FormZS_Load(object sender, EventArgs e)
         {
-            if (cbTotalMeasure.Checked)
+           /* if (cbTotalMeasure.Checked)
             {
                 lSumOfZs.Show();
                 tbSumOfZs.Show();
@@ -28,7 +28,7 @@ namespace Proporcija
             {
                 lSumOfZs.Hide();
                 tbSumOfZs.Hide();
-            }
+            }*/
 
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "dd. MM. yyyy. | HH:mm:ss";
@@ -68,13 +68,17 @@ namespace Proporcija
 
                 tbZaJedanZS.Text = (minutaZaJednog * 60).ToString("0.00") + "s";
 
-                double sumOfZs = double.Parse(tbSumOfZs.Text);
-                double timeRemaining = minutaZaJednog * sumOfZs;
-                tbTimeRemaining.Text = timeRemaining.ToString("0.00") + "min";
-
-                DateTime ETA = DateTime.Now;
-                ETA = ETA.AddMinutes(timeRemaining);
-                tbETA.Text = ETA.ToString("dd. MM. | HH:mm:ss");
+                if (cbTotalMeasure.Checked)
+                {
+                    //double sumOfZs = double.Parse(tbSumOfZs.Text);
+                    double sumOfZs = double.Parse(tbZsSada.Text);
+                    double timeRemaining = minutaZaJednog * sumOfZs;
+                    tbTimeRemaining.Text = timeRemaining.ToString("0.00") + "min";
+                    tbRemainingHours.Text = satiZaJednog.ToString("0.00") + "h";
+                    DateTime ETA = DateTime.Now;
+                    ETA = ETA.AddMinutes(timeRemaining);
+                    tbETA.Text = ETA.ToString("dd. MM. | HH:mm:ss");
+                }
                 
             }
             catch (Exception)
@@ -86,7 +90,7 @@ namespace Proporcija
 
         private void cbTotalMeasure_CheckedChanged(object sender, EventArgs e)
         {
-            if (cbTotalMeasure.Checked)
+           /* if (cbTotalMeasure.Checked)
             {
                 lSumOfZs.Show();
                 tbSumOfZs.Show();
@@ -95,7 +99,7 @@ namespace Proporcija
             {
                 lSumOfZs.Hide();
                 tbSumOfZs.Hide();
-            }
+            }*/
         }
     }
 }

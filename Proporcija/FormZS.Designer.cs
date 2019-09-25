@@ -44,8 +44,9 @@
             this.tbZaJedanZS = new System.Windows.Forms.TextBox();
             this.lPoJednomSekundi = new System.Windows.Forms.Label();
             this.cbTotalMeasure = new System.Windows.Forms.CheckBox();
-            this.tbSumOfZs = new System.Windows.Forms.TextBox();
-            this.lSumOfZs = new System.Windows.Forms.Label();
+            this.tbRemainingHours = new System.Windows.Forms.TextBox();
+            this.cbCountWhereCompletedZero = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -125,6 +126,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.tbRemainingHours);
             this.groupBox2.Controls.Add(this.tbETA);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.tbTimeRemaining);
@@ -193,6 +196,8 @@
             // cbTotalMeasure
             // 
             this.cbTotalMeasure.AutoSize = true;
+            this.cbTotalMeasure.Checked = true;
+            this.cbTotalMeasure.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbTotalMeasure.Location = new System.Drawing.Point(12, 122);
             this.cbTotalMeasure.Name = "cbTotalMeasure";
             this.cbTotalMeasure.Size = new System.Drawing.Size(94, 17);
@@ -201,22 +206,34 @@
             this.cbTotalMeasure.UseVisualStyleBackColor = true;
             this.cbTotalMeasure.CheckedChanged += new System.EventHandler(this.cbTotalMeasure_CheckedChanged);
             // 
-            // tbSumOfZs
+            // tbRemainingHours
             // 
-            this.tbSumOfZs.Location = new System.Drawing.Point(299, 119);
-            this.tbSumOfZs.Name = "tbSumOfZs";
-            this.tbSumOfZs.Size = new System.Drawing.Size(100, 20);
-            this.tbSumOfZs.TabIndex = 12;
+            this.tbRemainingHours.Location = new System.Drawing.Point(241, 59);
+            this.tbRemainingHours.Name = "tbRemainingHours";
+            this.tbRemainingHours.Size = new System.Drawing.Size(51, 20);
+            this.tbRemainingHours.TabIndex = 14;
             // 
-            // lSumOfZs
+            // cbCountWhereCompletedZero
             // 
-            this.lSumOfZs.AutoSize = true;
-            this.lSumOfZs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lSumOfZs.Location = new System.Drawing.Point(237, 123);
-            this.lSumOfZs.Name = "lSumOfZs";
-            this.lSumOfZs.Size = new System.Drawing.Size(56, 13);
-            this.lSumOfZs.TabIndex = 10;
-            this.lSumOfZs.Text = "Sum of zs:";
+            this.cbCountWhereCompletedZero.AutoSize = true;
+            this.cbCountWhereCompletedZero.Checked = true;
+            this.cbCountWhereCompletedZero.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbCountWhereCompletedZero.Location = new System.Drawing.Point(114, 122);
+            this.cbCountWhereCompletedZero.Name = "cbCountWhereCompletedZero";
+            this.cbCountWhereCompletedZero.Size = new System.Drawing.Size(194, 17);
+            this.cbCountWhereCompletedZero.TabIndex = 13;
+            this.cbCountWhereCompletedZero.Text = "Measurement 2 equals remaining zs";
+            this.cbCountWhereCompletedZero.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(216, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(19, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = " = ";
             // 
             // FormZS
             // 
@@ -224,8 +241,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(411, 320);
-            this.Controls.Add(this.lSumOfZs);
-            this.Controls.Add(this.tbSumOfZs);
+            this.Controls.Add(this.cbCountWhereCompletedZero);
             this.Controls.Add(this.cbTotalMeasure);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -256,11 +272,12 @@
         private System.Windows.Forms.TextBox tbZaJedanZS;
         private System.Windows.Forms.Label lPoJednomSekundi;
         private System.Windows.Forms.CheckBox cbTotalMeasure;
-        private System.Windows.Forms.TextBox tbSumOfZs;
-        private System.Windows.Forms.Label lSumOfZs;
         private System.Windows.Forms.TextBox tbETA;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox tbTimeRemaining;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tbRemainingHours;
+        private System.Windows.Forms.CheckBox cbCountWhereCompletedZero;
+        private System.Windows.Forms.Label label5;
     }
 }
