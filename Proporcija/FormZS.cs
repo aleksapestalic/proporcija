@@ -50,7 +50,9 @@ namespace Proporcija
                 double zsBilo = double.Parse(tbZsBilo.Text);
                 double zsSada = double.Parse(tbZsSada.Text);
 
-                tbTimeElapsed.Text = "Time between measurements: " + diff.Hours + "h " + diff.Minutes + "min " + diff.Seconds + "s."; //displays time between measurements.
+                if (diff.Days != 0) tbTimeElapsed.Text = "Time between measurements: " + diff.Days + "d " + diff.Hours + "h " + diff.Minutes + "min " + diff.Seconds + "s."; //displays time between measurements.
+
+                else tbTimeElapsed.Text = "Time between measurements: " + diff.Hours + "h " + diff.Minutes + "min " + diff.Seconds + "s."; //displays time between measurements.
 
                 /*
                  * bilo-sada .... timeEl
