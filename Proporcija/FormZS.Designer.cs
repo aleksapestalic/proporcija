@@ -47,6 +47,8 @@
             this.tbRemainingHours = new System.Windows.Forms.TextBox();
             this.cbCountWhereCompletedZero = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.bNow1 = new System.Windows.Forms.Button();
+            this.bNow2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -85,7 +87,7 @@
             // 
             this.bDoIt.Location = new System.Drawing.Point(12, 152);
             this.bDoIt.Name = "bDoIt";
-            this.bDoIt.Size = new System.Drawing.Size(387, 23);
+            this.bDoIt.Size = new System.Drawing.Size(423, 23);
             this.bDoIt.TabIndex = 6;
             this.bDoIt.Text = "Calculate";
             this.bDoIt.UseVisualStyleBackColor = true;
@@ -111,6 +113,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.bNow2);
+            this.groupBox1.Controls.Add(this.bNow1);
             this.groupBox1.Controls.Add(this.dateTimePicker2);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.tbZsBilo);
@@ -119,7 +123,7 @@
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(387, 104);
+            this.groupBox1.Size = new System.Drawing.Size(423, 104);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ulazni podaci";
@@ -136,7 +140,7 @@
             this.groupBox2.Controls.Add(this.lPoJednomSekundi);
             this.groupBox2.Location = new System.Drawing.Point(12, 181);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(387, 121);
+            this.groupBox2.Size = new System.Drawing.Size(423, 121);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Izlazni podaci";
@@ -235,12 +239,32 @@
             this.label5.TabIndex = 15;
             this.label5.Text = " = ";
             // 
+            // bNow1
+            // 
+            this.bNow1.Location = new System.Drawing.Point(378, 28);
+            this.bNow1.Name = "bNow1";
+            this.bNow1.Size = new System.Drawing.Size(37, 23);
+            this.bNow1.TabIndex = 9;
+            this.bNow1.Text = "Now";
+            this.bNow1.UseVisualStyleBackColor = true;
+            this.bNow1.Click += new System.EventHandler(this.bNow1_Click);
+            // 
+            // bNow2
+            // 
+            this.bNow2.Location = new System.Drawing.Point(378, 60);
+            this.bNow2.Name = "bNow2";
+            this.bNow2.Size = new System.Drawing.Size(37, 23);
+            this.bNow2.TabIndex = 10;
+            this.bNow2.Text = "Now";
+            this.bNow2.UseVisualStyleBackColor = true;
+            this.bNow2.Click += new System.EventHandler(this.bNow2_Click);
+            // 
             // FormZS
             // 
             this.AcceptButton = this.bDoIt;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 320);
+            this.ClientSize = new System.Drawing.Size(447, 320);
             this.Controls.Add(this.cbCountWhereCompletedZero);
             this.Controls.Add(this.cbTotalMeasure);
             this.Controls.Add(this.groupBox2);
@@ -279,5 +303,7 @@
         private System.Windows.Forms.TextBox tbRemainingHours;
         private System.Windows.Forms.CheckBox cbCountWhereCompletedZero;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button bNow2;
+        private System.Windows.Forms.Button bNow1;
     }
 }

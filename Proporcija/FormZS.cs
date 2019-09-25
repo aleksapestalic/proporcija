@@ -101,5 +101,15 @@ namespace Proporcija
                 tbSumOfZs.Hide();
             }*/
         }
+
+        private void bNow1_Click(object sender, EventArgs e)
+        {
+            dateTimePicker1.Value = DateTime.Now;
+        }
+
+        private void bNow2_Click(object sender, EventArgs e)
+        {
+            dateTimePicker2.Value = DateTime.Now;
+        }
     }
 }
